@@ -7,7 +7,7 @@ const mealsInDay = ["Breakfast", "Lunch", "Dinner", "Supper"];
 
 const [firstMeal, secondMeal, thirdMeal] = mealsInDay;
 
-console.log(firstMeal, "should be Breakfast")
+console.log(firstMeal, "should be Breakfast");
 
 // export so the values can be tested - but you can ignore this
 export { mealsInDay, firstMeal, secondMeal, thirdMeal };

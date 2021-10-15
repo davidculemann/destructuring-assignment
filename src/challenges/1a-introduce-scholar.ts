@@ -14,7 +14,11 @@ export default introduceScholar;
 */
 
 //With parameter destructuring:
-function introduceScholar({firstName, lastName, cohortNumber}: Scholar): string {
+function introduceScholar({
+  firstName,
+  lastName,
+  cohortNumber,
+}: Scholar): string {
   //const {firstName, lastName, cohortNumber} = scholar;
   return `${firstName} ${lastName} is an Academy Scholar, on Cohort ${cohortNumber}.`;
 }
